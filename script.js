@@ -4,6 +4,7 @@ const taskList = document.getElementById('lista-tarefas');
 let currentTask;
 const btnRemove = document.getElementById('apaga-tudo');
 const btnRemoveCompleted = document.getElementById('remover-finalizados');
+const btnRemoveSelected = document.getElementById('remover-selecionado');
 
 // eslint-disable-next-line func-names
 window.onload = function () {
@@ -45,4 +46,9 @@ btnRemove.addEventListener('click', () => {
 btnRemoveCompleted.addEventListener('click', () => {
   const completedTasks = document.querySelectorAll('.completed');
   completedTasks.forEach((task) => task.remove());
+});
+
+btnRemoveSelected.addEventListener('click', () => {
+  const selected = document.querySelector('.tasks');
+  selected.remove();
 });
