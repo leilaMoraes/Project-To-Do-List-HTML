@@ -2,6 +2,7 @@ const inputToDo = document.getElementById('texto-tarefa');
 const btnCreate = document.getElementById('criar-tarefa');
 const taskList = document.getElementById('lista-tarefas');
 let currentTask;
+const btnRemove = document.getElementById('apaga-tudo');
 
 // eslint-disable-next-line func-names
 window.onload = function () {
@@ -35,3 +36,7 @@ function riskTask({ target }) {
 }
 
 taskList.addEventListener('dblclick', riskTask);
+
+btnRemove.addEventListener('click', () => {
+  while (taskList.firstChild) taskList.removeChild(taskList.firstChild);
+});
