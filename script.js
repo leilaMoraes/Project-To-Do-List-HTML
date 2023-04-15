@@ -29,3 +29,9 @@ function createTask() {
 }
 
 btnCreate.addEventListener('click', createTask);
+
+function riskTask({ target }) {
+  target.classList.toggle('completed');
+}
+
+taskList.addEventListener('dblclick', riskTask);
