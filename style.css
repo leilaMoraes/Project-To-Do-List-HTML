@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   color: white;
 }
 
@@ -8,12 +6,16 @@ body {
   background-color: rgb(72 , 79 , 88);
 }
 
-.input-task {
+#texto-tarefa {
   color: black;
 }
 
-.btn-create {
+#criar-tarefa {
   background-color: rgb(72 , 79 , 88);
   width: 8em;
   padding: 0.5em;
+}
+
+.tasks {
+  background-color: gray;
 }
