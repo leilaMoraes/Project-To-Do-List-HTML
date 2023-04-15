@@ -3,6 +3,7 @@ const btnCreate = document.getElementById('criar-tarefa');
 const taskList = document.getElementById('lista-tarefas');
 let currentTask;
 const btnRemove = document.getElementById('apaga-tudo');
+const btnRemoveCompleted = document.getElementById('remover-finalizados');
 
 // eslint-disable-next-line func-names
 window.onload = function () {
@@ -39,4 +40,9 @@ taskList.addEventListener('dblclick', riskTask);
 
 btnRemove.addEventListener('click', () => {
   while (taskList.firstChild) taskList.removeChild(taskList.firstChild);
+});
+
+btnRemoveCompleted.addEventListener('click', () => {
+  const completedTasks = document.querySelectorAll('.completed');
+  completedTasks.forEach((task) => task.remove());
 });
