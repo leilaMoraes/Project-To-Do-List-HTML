@@ -2,7 +2,7 @@
 > *Clique nas setas para ver mais*
 
 <details>
-<summary><strong>👩‍💻 O que foi desenvolvido</strong></summary>
+<summary><strong>👩‍💻 O Que Foi Desenvolvido</strong></summary>
 <br />
 
 Uma aplicação web que permite ao usuário criar e gerenciar uma lista de tarefas (to do list). O usuário pode adicionar novas tarefas, marcar as tarefas concluídas, remover tarefas individuais ou todas as tarefas da lista. Mudar as tarefas de lugar e salvar as tarefas, são funcionalidades que ainda não foram implementadas. O gif a seguir mostra um exemplo de como a aplicação funciona mas não reflete como ela está atualmente.
@@ -11,7 +11,7 @@ Uma aplicação web que permite ao usuário criar e gerenciar uma lista de taref
 </details>
 
 <details>
-<summary><strong>👀 Para rodar localmente </strong></summary>
+<summary><strong>👀 Para Rodar Localmente </strong></summary>
 <br />
 
 1. Clone o repositório   
