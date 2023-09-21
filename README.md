@@ -1,5 +1,5 @@
 # ⭐ Boas-Vindas ao Repositório To Do List 🗒️
-> *Clique nas setas para ver mais* >
+> *Clique nas setas para ver mais*
 
 <details>
 <summary><strong>👩‍💻 O que foi desenvolvido</strong></summary>
